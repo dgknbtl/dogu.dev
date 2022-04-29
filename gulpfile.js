@@ -7,30 +7,12 @@ const imagemin = require("gulp-imagemin");
 const connect = require("gulp-connect");
 
 const PATH = {
-  font: [
-    "node_modules/@fortawesome/fontawesome-free/webfonts/**",
-    "src/vendor/icomoon/fonts/**",
-  ],
+  font: [],
   js: ["src/js/**/*.js"],
   img: ["src/img/**"],
   vendor: {
-    js: [
-      // "node_modules/card/dist/jquery.card.js",
-      // "node_modules/jquery/dist/jquery.min.js",
-      // "node_modules/bootstrap/dist/js/bootstrap.min.js",
-      // "node_modules/slick-carousel/slick/slick.min.js",
-      // "node_modules/jquery-mask-plugin/dist/jquery.mask.min.js",
-      // "node_modules/bs5-lightbox/dist/index.bundle.min.js",
-      // "node_modules/fotorama/fotorama.js",
-      // "node_modules/progressbar.js/dist/progressbar.min.js",
-    ],
-    css: [
-      "node_modules/card/dist/card.css",
-      "node_modules/slick-carousel/slick/slick.css",
-      "node_modules/bootstrap/dist/css/bootstrap.min.css",
-      "node_modules/fotorama/fotorama.css",
-    ],
-    // svg: ["node_modules/css.gg/icons/all.svg"],
+    js: [],
+    css: [],
   },
 };
 
