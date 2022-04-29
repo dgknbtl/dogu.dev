@@ -38,10 +38,14 @@ strong {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  @media (--t-sm) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   &-nav {
     display: flex;
     margin-left: 75px;
-    @media (--m) {
+    @media (--t-sm) {
       margin-left: 40px;
     }
     a {
@@ -95,7 +99,7 @@ strong {
   &-title {
     font-size: 46px;
     font-weight: 800;
-    @media (--m) {
+    @media (--t-sm) {
       font-size: 34px;
     }
   }
@@ -104,7 +108,7 @@ strong {
     line-height: 38px;
     margin-top: 5px;
     margin-bottom: 60px;
-    @media (--m) {
+    @media (--t-sm) {
       font-size: 20px;
       line-height: 30px;
       margin-bottom: 20px;
@@ -113,7 +117,7 @@ strong {
   &-info {
     font-size: 18px;
     line-height: 28px;
-    @media (--m) {
+    @media (--t-sm) {
       font-size: 15px;
       line-height: 24px;
       border-top: 1px solid rgba(0, 0, 0, 0.05);
@@ -168,9 +172,13 @@ strong {
       height: 240px;
       padding: 0;
     }
-    @media (--m) {
-      width: 150px;
-      height: 150px;
+    @media (--t-sm) {
+      width: 180px;
+      height: 180px;
+    }
+    @media (--m-sm) {
+      width: 140px;
+      height: 140px;
     }
     &:hover {
       filter: grayscale(20%);
@@ -217,4 +225,12 @@ span.fancySpan {
 
 span.fancySpan.fade {
   opacity: 1;
+}
+
+@media screen and (orientation: landscape) {
+  .card {
+    @media (--t-lg) {
+      height: 100%;
+    }
+  }
 }

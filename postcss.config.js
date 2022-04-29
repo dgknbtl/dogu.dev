@@ -11,19 +11,19 @@ module.exports = ({ file, options, env }) => {
       "postcss-custom-media": {
         importFrom: [
           {
-            customMedia: { "--m-sm": "(max-width: 374.98px)" },
+            customMedia: { "--m-sm": "(max-width: 375px)" },
           },
           {
-            customMedia: { "--m": "(max-width: 575.98px)" },
+            customMedia: { "--m": "(max-width: 576px)" },
           },
           {
-            customMedia: { "--t-sm": "(max-width: 767.98px)" },
+            customMedia: { "--t-sm": "(max-width: 768px)" },
           },
           {
-            customMedia: { "--t-lg": "(max-width: 991.98px)" },
+            customMedia: { "--t-lg": "(max-width: 992px)" },
           },
           {
-            customMedia: { "--d-lg": "(max-width: 1199.98px)" },
+            customMedia: { "--d-lg": "(max-width: 1200px)" },
           },
           {
             customMedia: {
