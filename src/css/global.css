@@ -1,0 +1,9 @@
+:root {
+  --c-primary: #000;
+  --c-secondary: #555;
+  --ff: "Inter", sans-serif;
+  --filter-primary: invert(0%) sepia(0%) saturate(7471%) hue-rotate(253deg)
+    brightness(97%) contrast(107%);
+  --filter-secondary: invert(30%) sepia(0%) saturate(0%) hue-rotate(256deg)
+    brightness(105%) contrast(93%);
+}
