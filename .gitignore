@@ -1,1 +1,24 @@
+# dependencies
 node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Nuxtjs
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
